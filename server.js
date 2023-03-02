@@ -1,7 +1,7 @@
 const username = process.env.WEB_USERNAME || "password";
 const password = process.env.WEB_PASSWORD || "password";
-const url = "http://127.0.0.1";
-const port = process.env.PORT || 3000;
+const url = "http://0.0.0.1";
+const port = process.env.PORT || 8080;
 const express = require("express");
 const app = express();
 var exec = require("child_process").exec;
